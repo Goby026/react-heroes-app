@@ -1,0 +1,24 @@
+.search-container{
+    display: flex;
+    min-height: 700px;
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.search-col-1{
+    width: 30%;
+}
+
+.search-col-1 form{
+    display: flex;
+    flex-direction: column;
+}
+
+.search-col-2{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 70%;
+}

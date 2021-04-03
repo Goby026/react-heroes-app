@@ -1,0 +1,38 @@
+nav{
+    /* background: rgb(221, 218, 218); */
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    justify-content: space-between;
+}
+
+a, li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.logo{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    font-size: 20px;
+    justify-content: center;
+    padding: 1rem;
+}
+.logo img{
+    width: inherit;
+    height: 80px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.menu li{
+    padding: 1rem;
+}
+
+.menu li:hover{
+    border-bottom: 2px solid tomato;
+}
