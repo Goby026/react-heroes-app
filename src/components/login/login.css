@@ -1,0 +1,21 @@
+.login-title{
+    padding: 1rem;
+}
+.login{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.login-container{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: space-evenly;
+    margin-top: -80px;
+    padding: 1rem;
+    width: 400px;
+}

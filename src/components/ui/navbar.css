@@ -6,11 +6,6 @@ nav{
     justify-content: space-between;
 }
 
-a, li{
-    text-decoration: none;
-    list-style: none;
-}
-
 .logo{
     display: flex;
     height: 100%;
